@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISleep</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+   <nav>
+    <a href="#" class="logo">
+        <h1>
+            <span class="ISleep">ISleep <span class="WEB">WEB</span>
+            <span class="sleep">&#x1F4A4;</span>
+        </span>
+        </h1>
+    </a>
+   
+   <ul>
+    <li class="nav-item" id="myNav">
+      <a href="#landing" class="fa fa-fw fa-home" id="nav-link">ABOUT</a>
+    </li>
+    <li class="nav-item">
+      <a href="#wrapper" class="fa fa-fw fa-users" id="nav-link">MEMBERS</a>
+    </li>
+    <li class="nav-item">
+      <a href="#container" class="fa fa-fw fa-globe" id="nav-link">SERVICES</a>
+    </li>
+    <li class="nav-item">
+      <a href="#page-container" class="fa fa-fw fa-envelope" id="nav-link">CONTACT</a>
+    </li>
+</ul>
+<div class="hamburger" id="hamburger">
+  <span class="bar"></span>
+  <span class="bar"></span>
+  <span class="bar"></span>
+</div>
+</nav>
+
+
+    </div>
+        <!--This is the landing page section-->
+        <section id="landing">
+        <section class="hero">
+            <div class="intro-text">
+              <h1>
+                <span class="hear"> Sleep is the best meditation.  </span> <br />
+                <span class="connecting">Sleeping is not time wasting.</span>
+              </h1>
+              <p>
+                Irregular sleeping patterns are a common problem. This mobile app will fulfill the user's needs in tracking their sleeping patterns, including duration and timings.  <br />
+                We also dedicate some special trivia
+              </p>
+              <a class="btn red" href="#">Learn More</a>
+              
+            </div>
+            <div class="i-frame">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/IzQ2siryQrM"
+                title="YouTube video player"
+                frameborder="10"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+              <div class="stand-1"></div>
+              <div class="stand-2"></div>
+            </div>
+          </section>
+        </section>
+        <div class="splash">
+          <h1 class = "splash-header">Welcome ISleep</h1>
+        </div>
+
+        <script>
+          var splashScreen = document.querySelector('.splash');
+          splashScreen.addEventListener('click',()=>{
+          splashScreen.style.opacity = 0;
+          setTimeout(()=>{
+         splashScreen.classList.add('hidden')
+         },610)
+       })     
+        </script>
+    <!-- ABOUT SECTION -->
+
+    <section class="About" id="About">
+       <h3>Watch the benefits of sleeping</h3>
+         <p> Our primary objective is to bring user self-management and improvement of sleep hygiene to
+          the world</p>
+      <h3>Its not About the Fights Alone!</h3>
+      <p>
+        We also show some features, lifestyle of
+        people, news, and more.
+      </p>
+</section>
+
+<section class="stars" id="stars">
+  <div class="stars-gallery">
+    <a href="Anxiety.jpeg" class="big">
+      <img
+        src="Anxiety.jpeg" 
+        alt="Anxiety"
+        title="Insomnia"
+      />
+    </a>
+
+    <a href="Depression.jpg" class="big">
+      <img
+        src="Depression.jpg"
+        alt="Depression"
+        title="Effect on lack of sleep is Depression"
+      />
+    </a>
+
+    <a href="Example of sleep tracking .png" class="big">
+      <img
+        src="Example of sleep tracking .png"
+        alt="This is a feature of the app"
+        title="This is a feature of the app"
+      />
+    </a>
+
+    <a href="Cognitive disorder.jpeg" class="big">
+      <img
+        src="Cognitive disorder.jpeg"
+        alt="Mohammed Ali"
+        title="The Greatest"
+      />
+    </a>
+
+    <a href="hours.png" class="big"
+      ><img
+        src="hours.png"
+        alt="Deontay Wilder"
+        title="Bronze Bomber"
+      />
+    </a>
+
+    <a href="snore.png" class="big">
+      <img
+        src="snore.png"
+        alt="George Foreman"
+        title="Big George Foreman"
+      />
+    </a>
+  </div>
+</section>
+
+<div id="wrapper">
+  <h1>Our Team</h1>
+  <div class="team">
+    <div class="team_member">
+      <div class="team_img">
+        <img src="me-modified.png" alt="Team_image">
+      </div>
+      <h3>Kirby</h3>
+      <p class="role">Lead Developer</p>
+      <p>Hello! I am the head of </p>
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="fiel-modified.png" alt="Team_image">
+      </div>
+      <h3>Fiel</h3>
+      <p class="role">Assistant</p>
+      <p>Hello! I am the assistant developer</p></div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="mat-modified.png" alt="Team_image">
+      </div>
+      <h3>Mateo</h3>
+      <p class="role">Contents contributor</p>
+      <p>Hello! I am mateo and I produce some of the contents</p>
+    </div>
+  </div>
+</div>
+    
+<!--THIS IS SERVICES-->
+<section id="container">
+<div class="container">
+
+  <h1 class="heading">our services <span></span></h1>
+
+  <div class="box-container">
+
+      <div class="box">
+        <i class="fa-brands fa-chromecast"></i>
+          <h3>1</h3>
+          <p>Select date using date <br>picker</p>
+        
+      </div>
+
+      <div class="box">
+        <i class="fa-solid fa-layer-group"></i>
+          <h3>2</h3>
+          <p>Select sleep time in hour and minutes</p>
+        
+      </div>
+
+      <div class="box">
+          <i class="fa-solid fa-eye"></i>
+          <h3>3</h3>
+          <p>Select wakeup time in hour and minutes</p>
+          
+      </div>
+
+      <div class="box">
+        <i class="fa-solid fa-desktop"></i>
+          <h3>4</h3>
+          <p>Calculate total sleep <br>duration</p>
+         
+      </div>
+
+      <div class="box">
+        <i class="fa-solid fa-moon"></i>
+          <h3>5</h3>
+          <p>Include reset, cancel, and submit buttons</p>
+          
+      </div>
+      
+  </div>
+
+</div>
+</section>
+    <!-- FOOTER SECTION -->
+
+    <div id="page-container">
+        <div id="content-wrap">
+        
+        </div>
+        <footer id="footer"></footer>
+      </div>
+      
+  <div class="footer">
+    <div class="heading">
+      <h2>ISleep<sup>™</sup></h2>
+    </div>
+    <div class="content">
+      <div class="services">
+        <h4>Services</h4>
+        <p><a href="#containerr">Select Date Using Date
+          Picker</a></p>
+        <p><a href="#">Select Sleep Time In Hour And Minutes</a></p>
+        <p><a href="#">Select Wakeup Time In Hour And Minutes</a></p>
+        <p><a href="#">Calculate Total Sleep
+          Duration</a></p>
+        <p><a href="#">Include Reset, Cancel, And Submit Buttons</a></p>
+
+      </div>
+    
+      <div class="links">
+        <h3>Quick links</h>
+        <p><a href="#landing">About</a></p>
+        <p><a href="#wrapper">Members</a></p>
+        <p><a href="#container">Services</a></p>
+        <p><a href="#page-container">Contact</a></p>
+      </div>
+      <div class="details">
+        <h4 class="mobile">Mobile</h4>
+        <p><a href="#">+91-12225*****</a></p>
+        <h4 class="mail">Email</h4>
+        <p><a href="#">farazc60@gmail.com</a></p>
+      </div>
+    </div>
+    <footer>
+     
+      © 2023 ISleep.
+    </footer>
+  </div>
+  <i class="scroll-up" id="scroll-up"
+     ><img
+       src="arrow up.png"
+       class="socicon up-arrow"
+       alt="up-arrow"/>
+      </i>
+
+      <script>
+        const scrollUp = document.querySelector("#scroll-up");
+      
+        scrollUp.addEventListener("click", () => {
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+          });
+        });
+      
+        window.addEventListener('scroll', togglescrollUpVisibility);
+      
+        function togglescrollUpVisibility() {
+          const scrollUp = document.getElementById('scrollUp');
+      
+          if (window.pageYOffset > 100) {
+            scrollUp.style.display = 'block';
+          } else {
+            scrollUp.style.display = 'none';
+          }
+        }
+      </script>
+      
+</body>
+</html>
+
